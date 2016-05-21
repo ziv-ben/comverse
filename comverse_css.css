@@ -96,3 +96,5 @@ p,dt { font-family: "open sans" ;
                       background-size: contain; }
 
   .center  {margin-left: 320px; }
+
+ .bottom {vertical-align: bottom ;}
