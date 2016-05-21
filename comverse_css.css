@@ -1,13 +1,98 @@
 .light_blue_backgound { background: dodgerblue ;}
 .light_gray_background { background: #DCDCDC; }
 .gray_background {background: dimgray ;}
-.title {  font-size: 3rem;
+.title {  font-size: 300%;
 	     font-family: arial ;
 	     font-weight: lighter;
-	     text-align : center;}
+	     text-align : center;
+	     color : white;
+	     }
 
-p,dt { font-family: georgia ;
-   font-size: 1.1rem
+p,dt { font-family: "open sans" ;
+   font-size: 150% ;
    font-weight : normal; 
    font-style: italic;}
+/*
+ .image {position: relative;}
+         
+ .image h1 {position: absolute;}
+*/
 
+.image { background-image: url("img-1/slider/custom-experience.jpg");
+         /*  */
+         height: 500px ;
+         background-size: cover;  }
+
+  .pink-read-box  {  box-sizing: border-box;
+ 	                    width: 270px;
+ 	                    height: 170px;
+                        padding: 25px;
+                        margin: 20px;
+                       background: rgb(250, 66, 158) ;
+                       border-radius: 15px ;
+                       opacity: 0.8 ;
+                       font-size: 13.5px;
+                       color: white; 
+                       line-height: 6px;
+                       display: inline-block;}
+
+.green-read-box  {  box-sizing: border-box;
+ 	                    width: 270px;
+ 	                    height: 170px;
+                        padding: 25px;
+                        margin: 20px;
+                       background:  rgb(104, 192, 56) ;
+                       border-radius: 15px ;
+                       opacity: 0.8 ;
+                       font-size: 13.5px;
+                       line-height: 6px;
+                       color: white;
+                       display: inline-block ; }
+
+  .orange-read-box  {  box-sizing: border-box;
+ 	                    width: 270px;
+ 	                    height: 170px;
+                        padding: 25px;
+                        margin: 20px;
+                       background:  rgb(225, 116, 20) ;
+                       border-radius: 15px ;
+                       opacity: 0.8 ;
+                       font-size: 13.5px;
+                       line-height: 6px;
+                       color: white;
+                       display: inline-block ; }
+
+
+
+
+
+
+
+  .icon::before {content: url("img-1/icons/link-icon-image.png");}
+         
+         
+  .change-color {display: inline-block;
+                     }
+  .change-color a {text-decoration: none ;}
+
+ /* .change-color-left { margin-left: 300px; }*/
+
+
+
+
+
+  /*.change-color:hover { background-image: url("img-1/solutions/solution_icon_biz-analitics_hover.png"); }*/
+
+  .container { display: inline-block; 
+                        width: 12%; 
+                        margin-bottom: 20px ;
+                        vertical-align: top ;
+                       }
+
+  .container p,dt,h1,h1,h3,h2 {color: white;}
+
+  .background-photo { width: 100% ; 
+                      height: 450px ;
+                      background-size: contain; }
+
+  .center  {margin-left: 320px; }
