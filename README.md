@@ -1,2 +1,0 @@
-# comverse
-netcraft project comverse
