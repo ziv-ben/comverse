@@ -4,14 +4,6 @@
 img{
     max-width: 100%;
 }
-
-.slider_button { width: 20px ;
-                height : 20px ;
-                background-color: white;
-                display: inline-block;
-                border-radius: 4px;}
-.slider_button:hover { background-color: #3399cc}
-
 .row{
     max-width: 1000px;
     margin: 0 auto;
@@ -60,9 +52,6 @@ img{
 .text-center{
     text-align: center;
 }
-
-
-
 
 .half:after,
 .quarter:after,
@@ -161,8 +150,19 @@ ul {
 #slider{
     height: 550px;
     background: url('../images/slider/custom-experience.jpg') no-repeat center center;
-
 }
+.slide-bullet{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    display: inline-block;
+}
+
+.slide-bullet:hover {
+    background: magenta;
+}
+
+
 .title {
     font-size: 300%;
     font-family: arial;
@@ -206,6 +206,20 @@ ul {
 .orange{
     background: rgb(225, 116, 20);
 }
+
+#slider_button_1,#slider_button_2,#slider_button_3,#slider_button_4 {   background-color: white;
+                                                                        width : 20px ;
+                                                                        height : 20px;
+                                                                        border-radius: 4px;
+                                                                        display: inline-block;}
+
+
+#slider_button_1:hover {background-color: #2f95c8;}
+#slider_button_2:hover {background-color: #2f95c8;}
+#slider_button_3:hover {background-color: #2f95c8;}
+#slider_button_4:hover {background-color: #2f95c8;}
+
+
 
 /* /Slider */
 
